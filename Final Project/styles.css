@@ -1,0 +1,65 @@
+main nav {
+  background-color: tan; 
+  border: solid 2px black;
+  text-align: center
+  
+}
+
+main nav ul {
+  list-style:  none;
+  margin:0;
+  padding:0;
+  display:flex
+  }
+
+main nav ul li{
+  margin:auto;
+text-align: center;
+
+}
+
+main nav ul li a{
+  padding:0px .9em;
+  
+  }
+p.solid{border-style: solid;padding:60px ;}
+
+h1{text-align:center ;}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+  a:hover{text-decoration: underline;}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  margin: 0;
+  background-image: url('Images/landscape.jpg');
+  
+}
+
+main {
+  width: 70%;
+  max-width: 640px;
+  min-width: 600px;
+  min-height: 100%;
+  border: .2em solid lightcyan;
+  margin: auto;
+  background-color: WhiteSmoke;
+  padding: 1em 2em;
+}
+
+
+.footer {
+  padding: 20px;
+}

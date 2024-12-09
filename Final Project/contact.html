@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lab 7 Tables and Forms </title>
+        <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+ 
+      <ul>
+         <li> <a href="tierlist.html">   Table        </a>  </li>
+         <li> <a href="contact.html" >    Form       </a>  </li>
+
+      </ul>
+     
+<h1>What is Your Favorite candy?</h1>
+<h2>Lovers of Candy, Tell us what you love, and we will send you a bag of treats!</h2>
+<br>
+<div class="container">
+<form action="#" method="post">
+     <main>
+      <legend>Trick Or Treat</legend>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Ex.Josh W" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="@ccbcmd.edu" required>
+
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" required >
+
+    <label for="Country">Country:</label>
+    <select id="Country" name="Country"required>
+
+    <option value="united states"> United States </option>
+    <option value="united kingdom">United Kingdom </option>
+    <option value="canada">Canada </option>
+
+</select>
+
+    <br>
+<div>
+  <label for="candy"></label>
+  
+      <input type="radio" id="choco" name="candy" value="choco">
+      <label for="choco" > I'm a Chocolate Connoisseur</label>
+      
+      <input type="radio" id="chewy" name="candy" value="chewy">
+      <label for="chewy"> I Love Chewy Gummies</label>
+      
+      <input type="radio" id="sweet" name="candy" value="sweet">
+      <label for="sweet">I Enjoy ALL THINGS SWEET</label>
+      
+</div>
+
+
+
+
+
+    <br>
+    <div>
+    <label for="message">Allergies:</label>
+    <textarea placeholder="Nuts, milk, strawberry, etc." name="message"></textarea>
+</div>
+<br>
+    <div>
+    <input type="submit" value="Submit">
+    <input type="reset">
+    </div>
+     </main>
+  </form>
+</div>
+
+
+
+
+</body>

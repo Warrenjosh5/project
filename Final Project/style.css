@@ -1,0 +1,31 @@
+h1 {border-style: solid;padding:60px ;text-align: center;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: burlywood; 
+  border: solid 2px black;}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin: 0;
+    background-image: url('Images/landscape.jpg');
+
+
+  
+}
+
+main {
+  width: 70%;
+  max-width: 640px;
+  min-width: 600px;
+  min-height: 100%;
+  border: .2em solid lightcyan;
+  margin: auto;
+  background-color: WhiteSmoke;
+  padding: 1em 2em;
+}
+img {width: 500px;
+height: 300px;border: solid;color: black;}
